@@ -2,16 +2,16 @@
 
 -- Insert Sample Users
 INSERT INTO users (username, email, password_hash, full_name, bio) VALUES
-('john_doe', 'john@example.com', '$2b$10$XQvZ5jN9W6M4.Bb3YQZ5Z.G4K4K4K4K4K4K4K4K4K4K4K4K4K4', 'John Doe', 'Creative designer and mood enthusiast'),
-('jane_smith', 'jane@example.com', '$2b$10$XQvZ5jN9W6M4.Bb3YQZ5Z.G4K4K4K4K4K4K4K4K4K4K4K4K4K4', 'Jane Smith', 'Art lover and digital creator'),
-('alex_wonder', 'alex@example.com', '$2b$10$XQvZ5jN9W6M4.Bb3YQZ5Z.G4K4K4K4K4K4K4K4K4K4K4K4K4K4', 'Alex Wonder', 'Photography and aesthetic explorer'),
-('emma_creative', 'emma@example.com', '$2b$10$XQvZ5jN9W6M4.Bb3YQZ5Z.G4K4K4K4K4K4K4K4K4K4K4K4K4K4', 'Emma Creative', 'Minimalist designer'),
-('mike_vibes', 'mike@example.com', '$2b$10$XQvZ5jN9W6M4.Bb3YQZ5Z.G4K4K4K4K4K4K4K4K4K4K4K4K4K4', 'Mike Vibes', 'Music and visual arts enthusiast');
+('john_doe', 'john@example.com', '$2a$10$OoecZSY1mBXeqx5nzTslB.Hx7eBEOyCV5CmhiyrRacrML1e5HipSu', 'John Doe', 'Creative designer and mood enthusiast'),
+('jane_smith', 'jane@example.com', '$2a$10$OoecZSY1mBXeqx5nzTslB.Hx7eBEOyCV5CmhiyrRacrML1e5HipSu', 'Jane Smith', 'Art lover and digital creator'),
+('alex_wonder', 'alex@example.com', '$2a$10$OoecZSY1mBXeqx5nzTslB.Hx7eBEOyCV5CmhiyrRacrML1e5HipSu', 'Alex Wonder', 'Photography and aesthetic explorer'),
+('emma_creative', 'emma@example.com', '$2a$10$OoecZSY1mBXeqx5nzTslB.Hx7eBEOyCV5CmhiyrRacrML1e5HipSu', 'Emma Creative', 'Minimalist designer'),
+('mike_vibes', 'mike@example.com', '$2a$10$OoecZSY1mBXeqx5nzTslB.Hx7eBEOyCV5CmhiyrRacrML1e5HipSu', 'Mike Vibes', 'Music and visual arts enthusiast');
 
 -- Insert Sample Admins
 INSERT INTO admins (username, email, password_hash, full_name, role) VALUES
-('admin_super', 'admin@vibecheck.com', '$2b$10$XQvZ5jN9W6M4.Bb3YQZ5Z.G4K4K4K4K4K4K4K4K4K4K4K4K4K4', 'Super Admin', 'super_admin'),
-('mod_sarah', 'sarah@vibecheck.com', '$2b$10$XQvZ5jN9W6M4.Bb3YQZ5Z.G4K4K4K4K4K4K4K4K4K4K4K4K4K4', 'Sarah Moderator', 'moderator');
+('admin_super', 'admin@vibecheck.com', '$2a$10$OoecZSY1mBXeqx5nzTslB.Hx7eBEOyCV5CmhiyrRacrML1e5HipSu', 'Super Admin', 'super_admin'),
+('mod_sarah', 'sarah@vibecheck.com', '$2a$10$OoecZSY1mBXeqx5nzTslB.Hx7eBEOyCV5CmhiyrRacrML1e5HipSu', 'Sarah Moderator', 'moderator');
 
 -- Insert Sample Communities
 INSERT INTO communities (name, description, category, created_by, member_count) VALUES
